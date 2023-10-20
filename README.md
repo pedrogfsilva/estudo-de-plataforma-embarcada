@@ -1,1 +1,3 @@
 # estudo-de-plataforma-embarcada
+
+### A prova de conceito tem como intuito demonstrar o controle de um LED usando o Raspberry Pi Pico W através da interface UART, utilizando a plataforma online Wokwi. O código em C++, contido na pasta src e escrito no arquivo sketch.ino, configura um pino GPIO para conectar o LED e inicia a comunicação serial. Quando um usuário envia "1" pela porta serial, o LED acende, e ao enviar "0", o LED se apaga. O código fornece feedback pela porta serial, indicando o estado do LED. Essa prova de conceito ilustra a capacidade do Raspberry Pi Pico W de interagir com periféricos usando a comunicação UART, tornando possível controlar o LED remotamente por meio de comandos serializados.
